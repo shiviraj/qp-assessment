@@ -1,0 +1,29 @@
+{
+  "name": "qp-assessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist",
+    "dev": "ts-node-dev src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.10.1",
+    "express": "^4.18.2",
+    "logging-starter": "^0.0.6",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.6.5",
+    "sequelize": "^6.35.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
+  },
+  "devDependencies": {
+    "@types/mysql": "^2.15.24",
+    "ts-node-dev": "^2.0.0"
+  }
+}
